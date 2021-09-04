@@ -1,0 +1,45 @@
+html body {
+    font-family: 'Lato' sans-serif;
+    background-color: rgb(110, 194, 228);
+    color:black;
+}
+
+.center {
+    text-align: center;
+    margin: 20px;
+}
+
+.outerdiv {
+    border: solid 2px red;
+    /* padding: 20px; */
+    align-items: center;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 70vh;
+    max-width: 500px;
+    width: 100%;
+    position: absolute;
+}
+
+.outerdiv1 {
+    border: solid 2px red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    max-width: 500px;
+    width: 100%;
+    position: absolute;
+}
+
+.innerdiv {
+    position: absolute;
+    bottom: 0;
+}
+
+
+
+
+
